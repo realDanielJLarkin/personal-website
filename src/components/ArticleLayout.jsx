@@ -3,23 +3,10 @@ import { useRouter } from 'next/router'
 
 import { Container } from '@/components/Container'
 import { Prose } from '@/components/Prose'
-import { formatDate } from '@/lib/formatDate'
 import Image from 'next/image'
 import dayjs from 'dayjs'
-import ReactHTMLParser from 'react-html-parser'
+import parse from 'html-react-parser'
 
-function ArrowLeftIcon(props) {
-  return (
-    <svg viewBox="0 0 16 16" fill="none" aria-hidden="true" {...props}>
-      <path
-        d="M7.25 11.25 3.75 8m0 0 3.5-3.25M3.75 8h8.5"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-}
 
 export function ArticleLayout({ post }) {
   let router = useRouter()
@@ -57,7 +44,7 @@ export function ArticleLayout({ post }) {
                   <span className="ml-3">Daniel Larkin</span>
                 </time>
               </header>
-              <Prose className="mt-8">{ReactHTMLParser(post.content)}</Prose>
+              <Prose className="mt-8">{parse(post.content)}</Prose>
             </article>
           </div>
         </div>
