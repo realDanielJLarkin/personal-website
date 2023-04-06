@@ -61,33 +61,24 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I'm Daniel, a software developer traveling the world.
+              My name is Daniel, I am a software developer traveling the world.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Thanks for checking out my website! By now you can see that I'm a web developer with a passion for creating beautiful & responsive websites and web applications. Not only am I proficient in HTML, CSS, and JavaScript, but also React, NodeJS, Express, and MongoDB.
-                With these technologies I'm able to build any website or application you can think of, no matter how complex! Additionally,
+                Thanks for checking out my website! By now you can see that I am a web developer with a passion for creating beautiful & responsive websites and web applications. Not only am I proficient in HTML, CSS, and JavaScript, but also React, NodeJS, Express, and MongoDB.
+                With these technologies I am able to build any website or application you can think of, no matter how complex! Additionally,
                 I also have experience with CMS services like Wordpress, Shopify, and Contenful, perfect platforms for building bueatiful blogs, e-commerce, and
                 business websites that are user friendly, both for you and your customers!
-
-
-                Outside of software development, I hold a BA in Political
-                Science from the University of Iowa and a MA in Strategic Intelligence & Analysis from Northeastern University.
-                My interests include geopolitics, international relations, and learning new langauges (not just programming langauges!).
-                In my free time, you'll usually find me making music, if not listening to it, or reading about the latest international crisis situation.
               </p>
               <p>
                 Outside of software development, I hold a BA in Political
                 Science from the University of Iowa and a MA in Strategic Intelligence & Analysis from Northeastern University.
                 My interests include geopolitics, international relations, and learning new langauges (not just programming langauges!).
-                In my free time, you'll usually find me making music, if not listening to it, or reading about the latest international crisis situation.
+                In my free time, you will usually find me making music, if not listening to it, or reading about the latest international crisis situation.
               </p>
-              <p>
 
-              </p>
-              <p>
 
-              </p>
+
             </div>
           </div>
           <div className="lg:pl-20">

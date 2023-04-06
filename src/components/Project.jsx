@@ -26,7 +26,7 @@ function Project({ project }) {
                     ))}
                 </div> */}
                 <div className="card-actions justify-end">
-                    <a href={project.link} target='_blank' className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition hover:text-teal-500 cursor-pointer">
+                    <a href={project.link} target='_blank' rel="noreferrer" className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition hover:text-teal-500 cursor-pointer">
                         <LinkIcon className="h-6 w-6 flex-none" />
                         <span className="ml-2">{project.link}</span>
                     </a>
