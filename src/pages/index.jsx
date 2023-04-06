@@ -138,7 +138,7 @@ export default function Home({ posts }) {
       </Container>
       <Photos />
       <div className='flex items-center justify-center mt-6'>
-        <p className='text-lg font-bold dark:text-zinc-400'>Like what you see? <a href='https://instagram.com/realdanieljlarkin/' target='_blank' className='text-purple-600 dark:text-teal-500 cursor-pointer hover:underline'>Follow me on Instagram</a> </p>
+        <p className='text-lg font-bold dark:text-zinc-400'>Like what you see? <a href='https://instagram.com/realdanieljlarkin/' target='_blank' rel="noreferrer" className='text-purple-600 dark:text-teal-500 cursor-pointer hover:underline'>Follow me on Instagram</a> </p>
       </div>
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto max-w-2xl lg:mx-0 mb-6">

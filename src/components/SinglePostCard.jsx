@@ -7,7 +7,7 @@ function SinglePostCard({ post }) {
     const [innerHTML, setInnerHTML] = useState('')
     useEffect(() => {
         setInnerHTML(post.excerpt)
-    }, [])
+    }, [post.excerpt])
 
     return (
         <div className="max-w-sm card rounded-lg overflow-hidden shadow-lg bg-white cursor-pointer dark:bg-gray-900 dark:text-zinc-200 dark:hover:bg-gray-800">
