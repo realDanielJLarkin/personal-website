@@ -102,11 +102,11 @@ export default function Home({ posts }) {
     <>
       <Head>
         <title>
-          Daniel Larkin - Software developer, founder, and world traveler
+          Daniel Larkin - Software developer and world traveler
         </title>
         <meta
           name="description"
-          content="I’m Daniel, a software developer and founder based in Iowa. I’m the founder and CEO of Collaboratr, where we help musicians, producers, and engineers connect."
+          content="I’m Daniel, a software developer and founder based in Iowa."
         />
       </Head>
       <Container className="mt-9">
