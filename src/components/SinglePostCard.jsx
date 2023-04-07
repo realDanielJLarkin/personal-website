@@ -18,7 +18,7 @@ function SinglePostCard({ post }) {
                 <div className="font-bold text-xl mb-2">{post.title}</div>
                 <p>{parse(innerHTML)}</p>
                 <div className="card-actions justify-end">
-                    <Link href={`/blog/${post.slug}`} target='_blank' className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition hover:text-teal-500 cursor-pointer">
+                    <Link href={`/blog/${post.slug}`} className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition hover:text-teal-500 cursor-pointer">
                         <span className="ml-2">Read More</span>
                     </Link>
                 </div>
