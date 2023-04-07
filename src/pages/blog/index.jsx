@@ -9,6 +9,13 @@ function Blog({ data }) {
     const posts = data.nodes
     return (
         <>
+            <Head>
+                <title>Blog - Daniel Larkin</title>
+                <meta
+                    name="Blog"
+                    content="My Blog"
+                />
+            </Head>
             <SimpleLayout title={'Blog'} intro={'I blog about tech, travel, and life style design.'} />
             <Container>
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
