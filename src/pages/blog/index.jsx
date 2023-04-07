@@ -2,6 +2,7 @@ import { Container } from '@/components/Container'
 import Project from '@/components/Project'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import SinglePostCard from '@/components/SinglePostCard'
+import Head from 'next/head'
 import React from 'react'
 
 
