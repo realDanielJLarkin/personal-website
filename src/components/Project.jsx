@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { useRouter } from 'next/router'
 
 function LinkIcon(props) {
     return (
@@ -13,8 +14,15 @@ function LinkIcon(props) {
 }
 
 function Project({ project }) {
+
+    const router = useRouter()
+
+    const handleClick = (link) => {
+        router.push(link,)
+    }
+
     return (
-        <div className="max-w-sm card rounded-lg overflow-hidden shadow-lg bg-white cursor-pointer dark:bg-gray-900 dark:text-zinc-200 dark:hover:bg-gray-800">
+        <div className="max-w-sm card rounded-lg overflow-hidden shadow-lg bg-white cursor-pointer dark:bg-gray-900 dark:text-zinc-200 dark:hover:bg-gray-800" onClick={() => handleClick(project.link)}>
             <Image className="w-full bg-white" src={project.image} alt={project.title} width={500} height={500} />
             <div className="card-body px-6 py-4">
                 <div className="font-bold text-xl mb-2">{project.title}</div>

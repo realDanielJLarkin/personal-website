@@ -17,16 +17,18 @@ function Blog({ data }) {
                     content="My Blog"
                 />
             </Head>
-            <SimpleLayout title={'Blog'} intro={'I blog about tech, travel, and life style design.'} />
+
+            <SimpleLayout title={'Blog'} intro={'Thanks for checking out my blog! You can expect me to blog from time to time about topics and issues that I find interesting.'} />
             <Container>
-                <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                    <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+                <div className="flex flex-col relative text-center md:text-left items-center">
+                    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                         {posts.map((post) => (
                             <SinglePostCard post={post} key={post.slug} />
                         ))}
                     </div>
                 </div>
             </Container>
+
         </>
     )
 }

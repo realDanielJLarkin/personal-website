@@ -2,15 +2,21 @@ import Image from "next/image"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import parse from 'html-react-parser'
+import { useRouter } from "next/router"
 
 function SinglePostCard({ post }) {
+    const router = useRouter()
     const [innerHTML, setInnerHTML] = useState('')
     useEffect(() => {
         setInnerHTML(post.excerpt)
     }, [post.excerpt])
 
+    const handleClick = (slug) => {
+        router.push(`/blog/${slug}`)
+    }
+
     return (
-        <div className="max-w-sm card rounded-lg overflow-hidden shadow-lg bg-white cursor-pointer dark:bg-gray-900 dark:text-zinc-200 dark:hover:bg-gray-800">
+        <div className="max-w-sm card rounded-lg overflow-hidden shadow-lg bg-white cursor-pointer dark:bg-gray-900 dark:text-zinc-200 dark:hover:bg-gray-800" onClick={() => handleClick(post.slug)}>
             <div className=" h-[200px] overflow-hidden flex ">
                 <Image className="" src={post.featuredImage.node.sourceUrl} alt={post.title} width={500} height={500} />
             </div>

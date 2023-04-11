@@ -55,7 +55,7 @@ export default function About() {
                 src={portraitImage}
                 alt=""
                 sizes="(min-width: 1024px) 32rem, 20rem"
-                className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+                className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />
             </div>
           </div>
@@ -65,16 +65,17 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Thanks for checking out my website! By now you can see that I am a web developer with a passion for creating beautiful & responsive websites and web applications. Not only am I proficient in HTML, CSS, and JavaScript, but also React, NodeJS, Express, and MongoDB.
-                With these technologies I am able to build any website or application you can think of, no matter how complex! Additionally,
-                I also have experience with CMS services like Wordpress, Shopify, and Contenful, perfect platforms for building bueatiful blogs, e-commerce, and
-                business websites that are user friendly, both for you and your customers!
+                Thanks for checking out my website! By now you can see that I am a web developer with a passion for creating beautiful & responsive websites and web applications.
+                I began teaching myself web development in January 2020 and have coded almost every day since. Right now, I am primarily using NextJS with Tailwind CSS to build full stack applications.
+                More recently, I've begun to dip my toes into the world of AWS as well as integrating typescript for additional type safety. I love the fast paced environment of the web dev world
+                and learning about the new technologies that seem to pop up every day.
+
               </p>
               <p>
                 Outside of software development, I hold a BA in Political
-                Science from the University of Iowa and a MA in Strategic Intelligence & Analysis from Northeastern University.
+                Science from the University of Iowa and a MA in Strategic Intelligence & Analysis with a concentration in Homeland Security from Northeastern University.
                 My interests include geopolitics, international relations, and learning new langauges (not just programming langauges!).
-                In my free time, you will usually find me making music, if not listening to it, or reading about the latest international crisis situation.
+                In my free time, you will usually find me making music (if not listening to it), exploring a new place, or reading about the latest international crisis situation.
               </p>
 
 

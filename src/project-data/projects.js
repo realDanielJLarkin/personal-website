@@ -9,7 +9,7 @@ import chirp from '../../public/chirp.png'
 const projects = [
     {
         title: 'Informed Viewer',
-        description: 'Informed Viewer is a fullstack application built with MongoDB, Express, React, and Node. The app allows users search for and like or dislike YouTube videos.',
+        description: 'Informed Viewer was my first fullstack application. It is  built with MongoDB, Express, React, and Node. The app allows users search for and like or dislike YouTube videos.',
         image: informedViewerImage,
         link: 'https://classy-rugelach-71b903.netlify.app/',
         tags: ['NodeJS', 'Fullstack', 'MongoDB', 'React', 'REST API'],
@@ -25,7 +25,7 @@ const projects = [
     // },
     {
         title: 'My Portfolio',
-        description: 'My porfolio website (which you are currently viewing) is a headless Wordpress site built with NextJS. This option is great if you want the familiarity of Wordpress CMS but want a completely custom layout.',
+        description: 'My porfolio website is a headless Wordpress site built with NextJS. This option is great if you want the familiarity of Wordpress CMS but want a completely custom layout.',
         image: portfolio,
         link: 'https://lrkn.dev/',
         tags: ['NextJS', 'TailwindCSS', 'Fullstack', 'Headless Wordpress', 'GraphQL'],

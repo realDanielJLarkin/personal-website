@@ -25,7 +25,7 @@ export default function Projects() {
         intro="These projects cover a wide variety of tools and technologies. From fullstack NextJS applications to simple frontend only SPAs to Wordpress blogs, look around to see what
         interests you." />
       <Container>
-        <div className=' flex flex-col relative text-center md:text-left items-center'>
+        <div className='flex flex-col relative text-center md:text-left items-center'>
           <div className="relative grid grid-cols-1 md:grid md:grid-cols-3 md:flex-wrap md:max-w-7xl md:mx-auto md:justify-center gap-6">
             {projects.map((project) => (
               <Project key={project.id} project={project} />

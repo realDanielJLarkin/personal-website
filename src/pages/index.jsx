@@ -115,7 +115,7 @@ export default function Home({ posts }) {
             Software developer, founder, and world traveler.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Daniel, a software developer and founder based in Iowa. I’m the founder and CEO of Collaboratr, where we help musicians, producers, and engineers connect.
+            I’m Daniel, a web developer from Iowa. I’m the founder and CEO of Collaboratr, where we help musicians, producers, and engineers connect.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
