@@ -67,7 +67,7 @@ export default function About() {
               <p>
                 Thanks for checking out my website! By now you can see that I am a web developer with a passion for creating beautiful & responsive websites and web applications.
                 I began teaching myself web development in January 2020 and have coded almost every day since. Right now, I am primarily using NextJS with Tailwind CSS to build full stack applications.
-                More recently, I've begun to dip my toes into the world of AWS as well as integrating typescript for additional type safety. I love the fast paced environment of the web dev world
+                More recently, I have begun to dip my toes into the world of AWS as well as integrating typescript for additional type safety. I love the fast paced environment of the web dev world
                 and learning about the new technologies that seem to pop up every day.
 
               </p>
